@@ -112,43 +112,46 @@
         </p>
       </section>
     </div>
-    </main>
+    
 
     <section>
         <h2>Contacto</h2>
 
-        <form action="">
+        <form class="contact-form">
             <fieldset>
                 <legend>Contactanos</legend>
 
-                <div>
-                <label for="">Nombre:</label>
-                <input type="text" placeholder="Nombre">
-                </div>
-                <div>
-                    <label for="">Telefono:</label>
-                    <input type="tel" placeholder="Telefono">
-                </div>
-                
-                <div>
-                    <label for="">Correo:</label>
-                    <input type="email" placeholder="Email">
+                <div class="fields-container">
+                <div class="field">
+                    <label for="">Nombre:</label>
+                    <input class="input-text" type="text" placeholder="Nombre">
                 </div>
 
-                <div>
+                <div class="field">
+                    <label for="">Telefono:</label>
+                    <input class="input-text" type="tel" placeholder="Telefono">
+                </div>
+                
+                <div class="field">
+                    <label for="">Correo:</label>
+                    <input class="input-text" type="email" placeholder="Email">
+                </div>
+
+                <div class="field">
                     <label for="">Mensaje:</label>
                     <textarea></textarea>
                 </div>
+              </div>
                 
-                <div>
-                    <input type="submit" value="Enviar">
+                <div class="aling flex">
+                    <input class="button w-sm-100" type="submit" value="Enviar">
                 </div>
             </fieldset>
         </form>
     </section>
+  </main>
 
-
-    <footer>
+    <footer class="footer">
         <p>Todos los derechos reservados Bryan Jimenez Freelancer</p>
     </footer>
   </body>
